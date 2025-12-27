@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Voice2Code</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Voice2Code 🎙️</h1>
+    <p class="sub">Speak commands to generate Python, then run it.</p>
+
+    <div class="row">
+      <button id="startBtn">Start Listening</button>
+      <button id="stopBtn" disabled>Stop</button>
+
+      <button id="runBtn">Run Code</button>
+      <button id="clearBtn">Clear</button>
+
+      <span id="status" class="status">Idle</span>
+    </div>
+
+    <div class="grid">
+      <div>
+        <h2>Python Code</h2>
+        <textarea id="textBox" placeholder="Your Python code will appear here..."></textarea>
+      </div>
+
+      <div>
+        <h2>Output</h2>
+        <pre id="output">(output will appear here)</pre>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
