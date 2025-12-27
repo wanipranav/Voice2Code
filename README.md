@@ -42,21 +42,24 @@ Voice2Code/
 
 │  app.py
 
-│  requirements.txt
+    requirements.txt
 
 │
 
 ├─templates/
 
-│    index.html
+      index.html
 
 │
 
 
 ├─static/
-│    app.js
-│    style.css
+│      app.js
+
+│      style.css
+
 │
+
 └─.gitignore
 
 ▶️ How to Run Locally
