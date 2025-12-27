@@ -39,12 +39,20 @@ Flask
 
 📂 Project Structure
 Voice2Code/
+
 │  app.py
+
 │  requirements.txt
+
 │
+
 ├─templates/
+
 │    index.html
+
 │
+
+
 ├─static/
 │    app.js
 │    style.css
