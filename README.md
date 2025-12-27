@@ -54,9 +54,9 @@ Voice2Code/
 
 
 ├─static/
-│      app.js
+      app.js
 
-│      style.css
+      style.css
 
 │
 
